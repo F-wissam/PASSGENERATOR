@@ -82,11 +82,15 @@ Ensure you have Python installed on your system.
 Open your terminal inside the project directory root.
 
 Run the installation command to fetch the dark theme and GUI framework dependencies:
+
     .\.venv\Scripts\pip install -r requirements.txt --ignore-requires-python
 
 Launch the main program using the following terminal command:
+
     .\.venv\Scripts\python.exe src/main.py
+    
 OR BY SIMPLY DOWNLOAD THE MAIN.EXE FILE USING THIS PATH
+
 --> dist folder --> main.exe
 press on main.exe and it will start the download 
 
