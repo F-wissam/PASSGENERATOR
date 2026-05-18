@@ -23,15 +23,15 @@ As an input strategy for this application, I used `QCheckBox` elements to safely
 
 ### PSEUDOCODE
 
-START PROGRAM
-Import libraries: string, secrets
-Initialize baseline string: charPool = string.ascii_lowercase
+    START PROGRAM
+    Import libraries: string, secrets
+    Initialize baseline string: charPool = string.ascii_lowercase
 
-Render GeneratorScreen()
-LISTEN for UserClick on generate_button:
+    Render GeneratorScreen()
+    LISTEN for UserClick on generate_button:
     CALL function generatePassword()
     
-FUNCTION generatePassword():
+    FUNCTION generatePassword():
     IF chk_caps is checked THEN
         charPool = charPool + string.ascii_uppercase
     END IF
@@ -50,8 +50,8 @@ FUNCTION generatePassword():
     END LOOP
     
     Update display_field with passwordString
-END FUNCTION
-END PROGRAM
+    END FUNCTION
+    END PROGRAM
 
 ## 3. Technical Implementation
 
